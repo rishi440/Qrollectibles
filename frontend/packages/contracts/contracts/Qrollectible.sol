@@ -1,4 +1,5 @@
-pragma solidity ^0.8.0
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -14,7 +15,6 @@ contract Qrollectible is ERC721
 
     struct Collectible 
     {
-
     	uint256 id;
     	address recepient; 
     	string uri;
